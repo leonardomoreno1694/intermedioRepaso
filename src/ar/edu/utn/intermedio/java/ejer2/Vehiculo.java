@@ -82,7 +82,16 @@ public class Vehiculo {
 	}
 	
 
-	
+	public float avanzar(int cantidadMinutos) 
+	{
+		float kilometrosAvanzados=0;
+		
+		float cantidadHoras= (float)cantidadMinutos/60;
+		
+		kilometrosAvanzados = this.getVelocidadMaxima()*cantidadHoras;
+		
+		return kilometrosAvanzados * 1000;
+	}
     
 
 }

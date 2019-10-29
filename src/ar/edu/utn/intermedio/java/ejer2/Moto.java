@@ -13,11 +13,10 @@ public class Moto extends Vehiculo {
 		
 		Integer RuedasMoto = 2;
 		return RuedasMoto;
-		
-		
-		
-		
+			
 	}
+	
+	
 	
 	
 
